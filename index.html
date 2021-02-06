@@ -11,7 +11,9 @@
     <title>Alarm Clock</title>
   </head>
   <body>
-    <div class="card d-flex mx-auto p-5 mt-3" style="border: 2px solid black; width: 25rem; background-color: rgb(146, 229, 250);">
+
+    <!-- Alarm Clock -->
+    <div class="card d-flex mx-auto p-5 mt-3" style="border: 4px solid black; width: 25rem; background-color: rgb(146, 229, 250);">
         <div class="d-flex justify-content-center">
             <h1><span class="badge bg-secondary">Alarm Clock</span></h1>
         </div>
@@ -24,6 +26,14 @@
                 <button type="submit" class="btn btn-primary mt-3" id="submit">Set Alarm</button>
             </form>
         </div>
+    </div>
+
+    <!-- Current Time -->
+    <div class="card d-flex mx-auto p-5 mt-5" style="width: 45rem; border: 4px solid black; background-color: rgb(146, 229, 250);">
+      <div class="container">
+        <h4 class="display-5">Current Time : <b><span id="curtime"></span></b></h4>
+        <h4><span id="date" class="my-2"></span></h4>
+      </div>
     </div>
 
     <!-- Optional JavaScript; choose one of the two! -->
